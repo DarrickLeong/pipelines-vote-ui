@@ -7,19 +7,31 @@ spec:
   - default: pipelines-vote-ui
     name: APP_NAME
     type: string
+<<<<<<< HEAD
   - default: https://github.com/DarrickLeong/pipelines-vote-ui.git
+=======
+  - default: https://github.com/red-wine-software/pipelines-vote-ui.git
+>>>>>>> c4ae3e05156541829450fb16a593455439dd88cd
     name: GIT_REPO
     type: string
   - default: master
     name: GIT_REVISION
     type: string
+<<<<<<< HEAD
   - default: quay.io/dleong/vote-ui
+=======
+  - default: quay.io/red-wine-software/vote-ui
+>>>>>>> c4ae3e05156541829450fb16a593455439dd88cd
     name: IMAGE_NAME
     type: string
   - default: .
     name: PATH_CONTEXT
     type: string
+<<<<<<< HEAD
   - default: 'https://github.com/DarrickLeong/vote-app-gitops.git'
+=======
+  - default: 'https://github.com/red-wine-software/vote-app-gitops.git'
+>>>>>>> c4ae3e05156541829450fb16a593455439dd88cd
     name: CONFIG_GIT_REPO
     type: string
   - default: develop
